@@ -1,5 +1,3 @@
-=== Unreleased ===
-
 === 2.6.33 - 2021-10-23 ===
 - Removed trailing comma in composer.json
 
@@ -795,7 +793,7 @@
       docs/fr/programmers/plugins/plugins-inserts.xml:
       sync with EN
 
-2006-10-14  Fernando Correa da Conceiï¿½ï¿½o  <fernando_conceicao@yahoo.com.br>
+2006-10-14  Fernando Correa da Conceição  <fernando_conceicao@yahoo.com.br>
 
     * docs/pt_BR/programmers/api-variables/variable-error-reporting.xml:
       New Translation
@@ -4336,7 +4334,7 @@
       fixed bug in _run_mod_handler
 
     * libs/Smarty_Compiler.class.php:
-      fixed bug with autoload-handling of modifiers. thanks ï¿½ndre.
+      fixed bug with autoload-handling of modifiers. thanks ándre.
 
 2003-08-05  Messju Mohr  <messju@lammfellpuschen.de>
 
