@@ -1,6 +1,6 @@
 2015-06-21  Uwe Tews
 
-    * PHP7 raises E_DEPRECATED use __construct for compatibility 
+    * PHP7 raises E_DEPRECATED use __construct for compatibility
 
 2013-09-30
 
@@ -10,16 +10,14 @@
 
     * Fixed made Smarty_Compiler.class.php compatible with PHP 5.5
 
-
 2012-09-24  Uwe Tews
 
-    * Fixed  escape Smarty error messages to avoid possible script execution
+    * Fixed escape Smarty error messages to avoid possible script execution
 
-    
 2010-04-17  Uwe Tews
 
     * Fixed security hole in {math} plugin
-    
+
 2007-09-27  TAKAGI Masahiro  <matakagi@gmail.com>
 
     * docs/ja/designers/language-custom-functions/language-function-html-checkboxes.xml:

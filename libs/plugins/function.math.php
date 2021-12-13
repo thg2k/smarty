@@ -15,9 +15,11 @@
  * @link http://smarty.php.net/manual/en/language.function.math.php {math}
  *          (Smarty online manual)
  * @author   Monte Ohrt <monte at ohrt dot com>
- * @param array
- * @param Smarty
- * @return string
+ *
+ * @param array                    $params   parameters
+ * @param Smarty_Internal_Template $template template object
+ *
+ * @return string|null
  */
 function smarty_function_math($params, &$smarty)
 {
