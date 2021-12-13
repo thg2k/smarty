@@ -749,12 +749,13 @@ class Smarty_Compiler extends Smarty {
         return true;
     }
 
-    function _preg_callback ($matches) {
-    return $this->_quote_replace($this->left_delimiter)
+    function _preg_callback($matches) {
+        return $this->_quote_replace($this->left_delimiter)
            . 'php'
            . str_repeat("\n", substr_count($matches[1], "\n"))
            . $this->_quote_replace($this->right_delimiter);
     }
+
     /**
      * compile custom function tag
      *

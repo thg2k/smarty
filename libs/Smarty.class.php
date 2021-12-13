@@ -27,7 +27,7 @@
  * @author Monte Ohrt <monte at ohrt dot com>
  * @author Andrei Zmievski <andrei@php.net>
  * @package Smarty
- * @version 2.6.31-dev
+ * @version 2.6.31
  */
 
 /* $Id$ */
@@ -568,6 +568,7 @@ class Smarty
      * @var array
      */
     var $_filepaths_cache = array();
+
     /**#@-*/
     /**
      * The class constructor.
