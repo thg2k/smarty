@@ -1,15 +1,16 @@
 2016-07-19  Uwe Tews
+
     * {math} shell injection vulnerability patch provided by Tim Weber
-    
+
 2015-12-30  Uwe Tews
 
     * fixed plugin filepath cache must not be static, because of possible problem
       when using multiple Smarty instances with diffrent plugins_dir settings
-         https://github.com/smarty-php/smarty/issues/146 
+         https://github.com/smarty-php/smarty/issues/146
 
 2015-06-21  Uwe Tews
 
-    * PHP7 raises E_DEPRECATED use __construct for compatibility 
+    * PHP7 raises E_DEPRECATED use __construct for compatibility
 
 2013-09-30
 
@@ -19,16 +20,14 @@
 
     * Fixed made Smarty_Compiler.class.php compatible with PHP 5.5
 
-
 2012-09-24  Uwe Tews
 
-    * Fixed  escape Smarty error messages to avoid possible script execution
+    * Fixed escape Smarty error messages to avoid possible script execution
 
-    
 2010-04-17  Uwe Tews
 
     * Fixed security hole in {math} plugin
-    
+
 2007-09-27  TAKAGI Masahiro  <matakagi@gmail.com>
 
     * docs/ja/designers/language-custom-functions/language-function-html-checkboxes.xml:

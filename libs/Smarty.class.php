@@ -568,6 +568,7 @@ class Smarty
      * @var array
      */
     var $_filepaths_cache = array();
+
     /**#@-*/
     /**
      * The class constructor.
