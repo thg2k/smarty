@@ -27,6 +27,7 @@
  * @author Monte Ohrt <monte at ohrt dot com>
  * @author Andrei Zmievski <andrei@php.net>
  * @package Smarty
+ * @version 2.6.32
  */
 
 /* $Id$ */
@@ -464,7 +465,7 @@ class Smarty
      *
      * @var string
      */
-    var $_version = '2.6.32';
+    var $_version              = '2.6.32';
 
     /**
      * current template inclusion depth
@@ -567,6 +568,7 @@ class Smarty
      * @var array
      */
     var $_filepaths_cache = array();
+
     /**#@-*/
     /**
      * The class constructor.
